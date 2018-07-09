@@ -1,6 +1,9 @@
 <template>
     <div id="app">
         <el-container>
+            <el-header>
+                <div class="logo"><a href="index.html">SRI UI PATTERNS</a></div>
+            </el-header>
             <el-aside width="200px">
                 <sub-menu></sub-menu>
             </el-aside>

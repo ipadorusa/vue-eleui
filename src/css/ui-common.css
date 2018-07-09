@@ -1,0 +1,31 @@
+/* reset & common class */
+html {color:#000;background:#fff;overflow-y:scroll}
+html,
+body {width:100%;height:100%;-webkit-text-size-adjust:none}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,
+button {margin:0;padding:0;font-family:"Malgun Gothic",dotum,gulim,sans-serif}
+table {border-spacing:0;border-collapse:collapse;font-family:"Malgun Gothic",dotum,gulim,sans-serif;font-size:inherit;line-height:100%}
+fieldset,img {border:0}
+address,caption,cite,code,dfn,em,strong,th,var {font-weight:normal;font-style:normal}
+strong,b {font-weight:bold}
+ol,ul,li {list-style:none}
+caption,th {text-align:left}
+h1,h2,h3,h4,h5,h6 {font-size:100%;font-weight:normal}
+q:before,q:after {content:""}
+del,ins {text-decoration:none}
+abbr,acronym {border:0;font-variant:normal}
+sup {vertical-align:text-top}
+sub {vertical-align:text-bottom}
+legend {color:#000}
+a {color:#444;text-decoration:none}
+header,footer,section,nav,article {display:block}
+input,button,textarea,select,optgroup,option {font-family:inherit;font-size:inherit;font-weight:inherit;font-style:inherit}
+input,button,textarea,select {line-height:normal}
+button {border:0;background:transparent;cursor:pointer}
+.hidden,
+.blind {overflow:hidden;position:absolute !important;width:1px;height:1px;clip:rect(1px,1px,1px,1px)}
+.ellipsis {overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.noSelect {-webkit-user-select:none;-moz-user-select:none;user-select:none;-o-user-select:none;-khtml-user-select:none}
+
+#skipnavigation a {position:absolute;left:-3000%}
+#skipnavigation a:focus {display:block;top:0;left:0;z-index:1000;width:100%;height:30px;color:#fff;line-height:30px;text-align:center;background:#6174d1}
