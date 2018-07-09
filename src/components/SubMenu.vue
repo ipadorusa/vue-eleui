@@ -8,8 +8,9 @@
         <nav>
             <ul class="el-submenu">
                 <li class="list-item"><router-link to="/">home</router-link></li>
-                <li class="list-item"><router-link to="/BookMarkList">BookMarkList</router-link></li>
-                <li class="list-item"><router-link to="/ListBook">ListBook</router-link></li>
+                <li class="list-item"><router-link to="/bookmarklist">BookMarkList</router-link></li>
+                <li class="list-item"><router-link to="/listbook">ListBook</router-link></li>
+                <li class="list-item"><router-link to="/vuestudylist">VuestudyList</router-link></li>
             </ul>
         </nav>
     </div>
