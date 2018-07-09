@@ -2,14 +2,20 @@
     <div id="app">
         <el-container>
             <el-header>
-                <div class="logo"><a href="index.html">SRI UI PATTERNS</a></div>
+                <i class="el-icon-edit"></i><router-link to="/">KIMWOOSUK</router-link>
             </el-header>
-            <el-aside width="200px">
-                <sub-menu></sub-menu>
-            </el-aside>
-            <el-main>
-                <router-view></router-view>
-            </el-main>
+            <el-container>
+                <el-aside width="300px" class="el-menu"><sub-menu></sub-menu></el-aside>
+                <el-main>
+                    <!--<el-breadcrumb separator-class="el-icon-arrow-right">
+                        <el-breadcrumb-item :to="{ path: '/' }">homepage</el-breadcrumb-item>
+                        <el-breadcrumb-item>promotion management</el-breadcrumb-item>
+                        <el-breadcrumb-item>promotion list</el-breadcrumb-item>
+                        <el-breadcrumb-item>promotion detail</el-breadcrumb-item>
+                    </el-breadcrumb>-->
+                    <router-view></router-view>
+                </el-main>
+            </el-container>
         </el-container>
     </div>
 </template>
@@ -24,7 +30,3 @@
         }
     }
 </script>
-
-<style>
-    *{margin:0;padding:0}
-</style>

@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Index from '@/components/Index'
 import ListBook from '@/components/ListBook'
-import Page1 from '@/components/Page1'
+import BookMarkList from '@/components/BookMarkList'
 
 
 
@@ -21,9 +21,9 @@ export default new Router({
       component: ListBook
     },
     {
-        path: '/page1',
-        name: 'Page1',
-        component: Page1
+        path: '/BookMarkList',
+        name: 'BookMarkList',
+        component: BookMarkList
     }
   ]
 })

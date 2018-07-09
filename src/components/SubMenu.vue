@@ -1,14 +1,27 @@
 <template>
-    <nav class="el-scrollbar">
-        <ul class="el-submenu">
-            <li class="list-item"><router-link to="/">home</router-link></li>
-            <li class="list-item"><router-link to="/page1">page1</router-link></li>
-            <li class="list-item"><router-link to="/ListBook">ListBook</router-link></li>
-        </ul>
-    </nav>
+    <div class="el-scrollbar">
+        <el-radio-group v-model="radio2">
+            <el-radio :label="2018">2018</el-radio>
+            <el-radio :label="2017">2017</el-radio>
+            <el-radio :label="2016">2016</el-radio>
+        </el-radio-group>
+        <nav>
+            <ul class="el-submenu">
+                <li class="list-item"><router-link to="/">home</router-link></li>
+                <li class="list-item"><router-link to="/BookMarkList">BookMarkList</router-link></li>
+                <li class="list-item"><router-link to="/ListBook">ListBook</router-link></li>
+            </ul>
+        </nav>
+    </div>
 </template>
 <script>
     export default {
-        name: 'SubMenu'
+        name: 'SubMenu',
+        data() {
+            return {
+                radio2: 2018
+            };
+        }
+
     }
 </script>
