@@ -3,8 +3,10 @@ import Router from 'vue-router'
 import Index from '@/components/Index'
 import ListBook from '@/components/ListBook'
 import BookMarkList from '@/components/BookMarkList'
-import StudyState from '@/components/StudyState'
 import VuestudyList from '@/components/VuestudyList'
+import StudyState01 from '@/components/StudyState01'
+import StudyState02 from '@/components/StudyState02'
+import StudyState03 from '@/components/StudyState03'
 
 
 
@@ -28,14 +30,24 @@ export default new Router({
         component: BookMarkList
     },
     {
+      path: '/studystate01',
+      name: 'StudyState01',
+      component: StudyState01
+    },
+    {
+    path: '/studystate02',
+    name: 'StudyState02',
+    component: StudyState02
+    },
+    {
         path: '/vuestudylist',
         name: 'VuestudyList',
         component: VuestudyList,
         children: [
           {
-              path: '/studystate',
-              name: 'StudyState',
-              component: StudyState
+            path: '/vuestudylist',
+            name: 'StudyState03',
+            component: StudyState03
           }
         ]
     }

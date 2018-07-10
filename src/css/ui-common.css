@@ -32,3 +32,5 @@ button {border:0;background:transparent;cursor:pointer}
 .el-header {background:#409eff;color:#fff;font-size:25px;line-height:60px}
 .el-header .router-link-active {color:#fff}
 .el-aside {height:100vh}
+.el-aside.el-menu {border-right:1px solid #ddd}
+.el-menu {border-right:0}
