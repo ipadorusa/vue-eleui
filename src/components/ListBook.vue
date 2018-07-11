@@ -2,7 +2,7 @@
   <div class="list_book">
     <h2>list</h2>
     <ul class="list-group">
-      <li class="list-item" v-for="company in companies">{{ company.name }} {{ company.category }}</li>
+      <li class="list-item" v-for="company in companies" v-bind="company" v-bind:key="company.name">{{ company.name }} {{ company.category }}</li>
     </ul>
   </div>
 </template>

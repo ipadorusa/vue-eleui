@@ -21,7 +21,7 @@ a {color:#444;text-decoration:none}
 header,footer,section,nav,article {display:block}
 input,button,textarea,select,optgroup,option {font-family:inherit;font-size:inherit;font-weight:inherit;font-style:inherit}
 input,button,textarea,select {line-height:normal}
-button {border:0;background:transparent;cursor:pointer}
+
 .hidden,
 .blind {overflow:hidden;position:absolute !important;width:1px;height:1px;clip:rect(1px,1px,1px,1px)}
 .ellipsis {overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
@@ -34,3 +34,4 @@ button {border:0;background:transparent;cursor:pointer}
 .el-aside {height:100vh}
 .el-aside.el-menu {border-right:1px solid #ddd}
 .el-menu {border-right:0}
+.el-menu-item.sub-list a {width:100%;display:block}

@@ -9,8 +9,10 @@
                             <span>Vue-self-study</span>
                         </template>
                         <el-menu-item-group title="Vuejs 시작하기">
-                            <el-menu-item index="1-1"><router-link to="/studystate01">선언적 렌더링(V-BIND)</router-link></el-menu-item>
-                            <el-menu-item index="1-2"><router-link to="/studystate02">조건문과 반복문</router-link></el-menu-item>
+                            <el-menu-item index="1-1" class="sub-list"><router-link to="/studystate01">선언적 렌더링(V-BIND)</router-link></el-menu-item>
+                            <el-menu-item index="1-2" class="sub-list"><router-link to="/studystate02">조건문과 반복문</router-link></el-menu-item>
+                            <el-menu-item index="1-3" class="sub-list"><router-link to="/studystate03">반복문1</router-link></el-menu-item>
+                            <el-menu-item index="1-4" class="sub-list"><router-link to="/studystate04">사용자입력 핸들링</router-link></el-menu-item>
                         </el-menu-item-group>
                     </el-submenu>
                 </el-menu>
