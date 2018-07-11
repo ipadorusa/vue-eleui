@@ -30,7 +30,7 @@
                             <span>계산된 속성과 감시자</span>
                         </template>
                         <el-menu-item-group title="">
-                            <el-menu-item index="2-1" class="sub-list"><router-link to="/studystate05">원시 HTML</router-link></el-menu-item>
+                            <el-menu-item index="2-1" class="sub-list"><router-link to="/studystate06">원시 HTML</router-link></el-menu-item>
                         </el-menu-item-group>
                     </el-submenu>
                 </el-menu>
