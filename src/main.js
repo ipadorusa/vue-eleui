@@ -10,7 +10,7 @@ Vue.use(ElementUI);
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
-var mm = new Vue({
+new Vue({
   el: '#app',
   router,
   components: { App },

@@ -9,6 +9,8 @@ import StudyState02 from '@/study/StudyState02'
 import StudyState03 from '@/study/StudyState03'
 import StudyState04 from '@/study/StudyState04'
 import StudyState05 from '@/study/StudyState05'
+import StudyState06 from '@/study/StudyState06'
+import StudyState07 from '@/study/StudyState07'
 
 
 
@@ -55,6 +57,16 @@ export default new Router({
         path: '/studystate05',
         name: 'StudyState05',
         component: StudyState05
+    },
+    {
+      path: '/studystate06',
+      name: 'StudyState06',
+      component: StudyState06
+    },
+    {
+      path: '/studystate07',
+      name: 'StudyState07',
+      component: StudyState07
     },
     {
         path: '/vuestudylist',
