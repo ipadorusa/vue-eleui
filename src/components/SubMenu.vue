@@ -30,9 +30,9 @@
                             <span>계산된 속성과 감시자</span>
                         </template>
                         <el-menu-item-group title="">
-                            <el-menu-item index="2-1" class="sub-list"><router-link to="/studystate06">계산된 속성</router-link></el-menu-item>
-                            <el-menu-item index="2-2" class="sub-list"><router-link to="/studystate06">감시자</router-link></el-menu-item>
-                            <el-menu-item index="2-3" class="sub-list"><router-link to="/studystate07">감시자2</router-link></el-menu-item>
+                            <el-menu-item index="3-1" class="sub-list"><router-link to="/studystate06">계산된 속성</router-link></el-menu-item>
+                            <el-menu-item index="3-2" class="sub-list"><router-link to="/studystate06">감시자</router-link></el-menu-item>
+                            <el-menu-item index="3-3" class="sub-list"><router-link to="/studystate07">감시자2</router-link></el-menu-item>
                         </el-menu-item-group>
                     </el-submenu>
                 </el-menu>
