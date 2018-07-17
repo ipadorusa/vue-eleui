@@ -7,12 +7,6 @@
             <el-container>
                 <el-aside width="300px" class="el-menu"><sub-menu></sub-menu></el-aside>
                 <el-main>
-                    <!--<el-breadcrumb separator-class="el-icon-arrow-right">
-                        <el-breadcrumb-item :to="{ path: '/' }">homepage</el-breadcrumb-item>
-                        <el-breadcrumb-item>promotion management</el-breadcrumb-item>
-                        <el-breadcrumb-item>promotion list</el-breadcrumb-item>
-                        <el-breadcrumb-item>promotion detail</el-breadcrumb-item>
-                    </el-breadcrumb>-->
                     <router-view></router-view>
                 </el-main>
             </el-container>
