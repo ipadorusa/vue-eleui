@@ -1,6 +1,6 @@
 <template>
     <section>
-        <h2>v-if</h2>
+        <h2>v-for</h2>
         <ol>
             <li v-for="item in todos" v-bind="item" v-bind:key="item.text">{{ item.text }}</li>
         </ol>
