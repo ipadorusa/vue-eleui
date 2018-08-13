@@ -6,6 +6,7 @@
         <div class="cart">
             <p>Cart :: {{ cart }}</p>
         </div>
+        <div>test commit</div>
     </section>
 </template>
 <script>
